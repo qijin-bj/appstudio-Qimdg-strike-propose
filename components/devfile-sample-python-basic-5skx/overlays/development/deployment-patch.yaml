@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-5skx
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/qijing/push-pyxis-xilt-tenant/appstudio/devfile-sample-python-basic-5skx@sha256:6f9f3b4f20cb28d1080bb2728b72f3b9f3e44f76abcced83b45277b9ab3576db
+        name: my-python
+        resources: {}
+status: {}
